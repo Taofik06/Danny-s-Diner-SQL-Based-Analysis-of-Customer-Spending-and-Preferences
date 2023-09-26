@@ -1,1 +1,1 @@
-# Danny-s-Diner-SQL-Based-Analysis-of-Customer-Spending-and-Preferences
+# Danny's-Diner-SQL-Based-Analysis-of-Customer-Spending-and-Preferences
