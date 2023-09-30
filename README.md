@@ -42,6 +42,7 @@ He plans on using these insights to help him decide whether he should expand the
 
 Danny company provided the data to be used for the analysis to write fully functioning SQL queries to help him answer his questions!
 The 3 key datasets for this case study are:
+
 -- sales
 
 -- menu
