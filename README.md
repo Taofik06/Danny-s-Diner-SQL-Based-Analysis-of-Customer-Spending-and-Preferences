@@ -62,6 +62,7 @@ Customer B has visited the restaurant 6 times which is the most among all custom
 
 4. What is the most purchased item on the menu and how many times was it purchased by all customers?
    ![image](https://github.com/Taofik06/Danny-s-Diner-SQL-Based-Analysis-of-Customer-Spending-and-Preferences/assets/123642327/d4002f55-f23f-4e11-a3e7-8f0d46428708)
+
    
    ![image](https://github.com/Taofik06/Danny-s-Diner-SQL-Based-Analysis-of-Customer-Spending-and-Preferences/assets/123642327/c39d8e17-ca48-40f9-8fad-967121a90f35)
 
