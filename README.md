@@ -1,8 +1,7 @@
 # Danny's-Diner-SQL-Based-Analysis-of-Customer-Spending-and-Preferences
-
+![Danny's Diner](https://github.com/Taofik06/Danny-s-Diner-SQL-Based-Analysis-of-Customer-Spending-and-Preferences/assets/123642327/bf8e59c0-a0a4-41c4-afe9-3d21216c60fc)
 
 ## Introduction
-
 
 Danny seriously loves Japanese food so in the beginning of 2021, he decides to embark upon a risky venture and opens up a cute little restaurant that sells his 3 favourite foods: sushi, curry and ramen. The restaurant is facing the challenges that many new establishments encounter. The diner has collected basic operational data over the initial months, but the utilization of this data to make informed business decision remains a problem to them.
 
