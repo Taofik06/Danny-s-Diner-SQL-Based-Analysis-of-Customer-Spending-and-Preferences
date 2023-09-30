@@ -59,3 +59,10 @@ The 3 key datasets for this case study are:
 ![image](https://github.com/Taofik06/Danny-s-Diner-SQL-Based-Analysis-of-Customer-Spending-and-Preferences/assets/123642327/3d7d8db5-0b34-4b4b-be45-8a04dd4631e7)
 
 The three customers A, B and C have spent $76, $74 and $36 respectively
+
+2. How many days has each customer visited the restaurant?
+   ![image](https://github.com/Taofik06/Danny-s-Diner-SQL-Based-Analysis-of-Customer-Spending-and-Preferences/assets/123642327/dcf84375-f0a0-425e-bfb7-8ae39cb3c039)
+![image](https://github.com/Taofik06/Danny-s-Diner-SQL-Based-Analysis-of-Customer-Spending-and-Preferences/assets/123642327/5ecba840-5418-41fe-81d4-dd3c17044053)
+
+Customer B has visited the restaurant 6 times which is the most among all customers studied. 
+
