@@ -66,3 +66,12 @@ The three customers A, B and C have spent $76, $74 and $36 respectively
 
 Customer B has visited the restaurant 6 times which is the most among all customers studied. 
 
+3. What was the first item from the menu purchased by each customer?
+   ![image](https://github.com/Taofik06/Danny-s-Diner-SQL-Based-Analysis-of-Customer-Spending-and-Preferences/assets/123642327/0a0a29b9-1c9d-4eac-8f93-72f3b95e95d6)
+![image](https://github.com/Taofik06/Danny-s-Diner-SQL-Based-Analysis-of-Customer-Spending-and-Preferences/assets/123642327/f084298d-9ffd-4c93-a203-9a8af9fec97a)
+
+4. What is the most purchased item on the menu and how many times was it purchased by all customers?
+   ![image](https://github.com/Taofik06/Danny-s-Diner-SQL-Based-Analysis-of-Customer-Spending-and-Preferences/assets/123642327/d4002f55-f23f-4e11-a3e7-8f0d46428708)
+![image](https://github.com/Taofik06/Danny-s-Diner-SQL-Based-Analysis-of-Customer-Spending-and-Preferences/assets/123642327/c39d8e17-ca48-40f9-8fad-967121a90f35)
+
+The most purchased item is Ramen. It has been purchased 8 times.
