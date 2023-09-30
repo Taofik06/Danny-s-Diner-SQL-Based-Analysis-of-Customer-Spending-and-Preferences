@@ -75,3 +75,30 @@ Customer B has visited the restaurant 6 times which is the most among all custom
 ![image](https://github.com/Taofik06/Danny-s-Diner-SQL-Based-Analysis-of-Customer-Spending-and-Preferences/assets/123642327/c39d8e17-ca48-40f9-8fad-967121a90f35)
 
 The most purchased item is Ramen. It has been purchased 8 times.
+
+5. Which item was the most popular for each customer?
+   ![image](https://github.com/Taofik06/Danny-s-Diner-SQL-Based-Analysis-of-Customer-Spending-and-Preferences/assets/123642327/6e3fb6c1-8297-40eb-8cae-e0b40d431c8a)
+   ![image](https://github.com/Taofik06/Danny-s-Diner-SQL-Based-Analysis-of-Customer-Spending-and-Preferences/assets/123642327/4e445287-a4d4-4c5f-b760-79d32426925b)
+
+6. Which item was purchased first by the customer after they became a member?
+   ![image](https://github.com/Taofik06/Danny-s-Diner-SQL-Based-Analysis-of-Customer-Spending-and-Preferences/assets/123642327/d6f457ea-55c0-4990-aca8-433505f10aa1)
+   ![image](https://github.com/Taofik06/Danny-s-Diner-SQL-Based-Analysis-of-Customer-Spending-and-Preferences/assets/123642327/e77e297e-ed36-46d4-a498-afd8ed39b33a)
+Of the 3 customers, only 2 of them customer A and B are members, they purchased curry and sushi first after they became a member
+   
+7. Which item was purchased just before the customer became a member?
+![image](https://github.com/Taofik06/Danny-s-Diner-SQL-Based-Analysis-of-Customer-Spending-and-Preferences/assets/123642327/cbd429f4-10b3-4e85-b1e0-5bf160c6e2b8)
+![image](https://github.com/Taofik06/Danny-s-Diner-SQL-Based-Analysis-of-Customer-Spending-and-Preferences/assets/123642327/ac8edd6a-e090-498f-9150-7427b0253e17)
+
+8. What is the total items and amount spent for each member before they became a member?
+   ![image](https://github.com/Taofik06/Danny-s-Diner-SQL-Based-Analysis-of-Customer-Spending-and-Preferences/assets/123642327/3f241c9a-ff94-4973-baa7-380ef4bf6a0a)
+![image](https://github.com/Taofik06/Danny-s-Diner-SQL-Based-Analysis-of-Customer-Spending-and-Preferences/assets/123642327/03d678ac-844a-466d-a6ca-02ce173a81c7)
+
+9. If each $1 spent equates to 10 points and sushi has a 2x points multiplier - how many points would each customer have?
+    ![image](https://github.com/Taofik06/Danny-s-Diner-SQL-Based-Analysis-of-Customer-Spending-and-Preferences/assets/123642327/96bf26a9-b5c1-42bb-a16e-d9d7dea3f2a8)
+   ![image](https://github.com/Taofik06/Danny-s-Diner-SQL-Based-Analysis-of-Customer-Spending-and-Preferences/assets/123642327/bbf5dad3-03c1-474e-8a8e-7792a94f9502)
+
+10. In the first week after a customer joins the program (including their join date) they earn 2x points on all items, not just sushi - how many points do customer A and B have at the end of January?
+   ![image](https://github.com/Taofik06/Danny-s-Diner-SQL-Based-Analysis-of-Customer-Spending-and-Preferences/assets/123642327/1db09106-fa1a-4bf3-a668-9917d838bfb3)
+![image](https://github.com/Taofik06/Danny-s-Diner-SQL-Based-Analysis-of-Customer-Spending-and-Preferences/assets/123642327/f5a38040-4e2a-495c-9cc2-73825b8c8154)
+
+
