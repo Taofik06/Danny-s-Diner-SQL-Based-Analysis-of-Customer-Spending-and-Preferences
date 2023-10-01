@@ -209,15 +209,6 @@ GROUP BY customer_id;
 
 -- 10. In the first week after a customer joins the program (including their join date) they earn 
 -- 2x points on all items, not just sushi - how many points do customer A and B have at the end of January?
-SELECT *, 
-	CASE 
-    WHEN s.order_date BETWEEN m.join_date AND DATE_ADD(m.join_date, INTERVAL 7 DAY) 
-    THEN 20 * price 
-    ELSE 10 * price 
-END AS points
-FROM sales s JOIN members m USING (customer_id) LEFT JOIN menu USING (product_id)
-WHERE s.order_date >= m.join_date AND MONTH (order_date) = 1;
-
 WITH cte AS (SELECT *, 
 	CASE 
     WHEN s.order_date BETWEEN m.join_date AND DATE_ADD(m.join_date, INTERVAL 7 DAY) 
@@ -242,4 +233,37 @@ LEFT JOIN menu USING (product_id)
 WHERE s.order_date >= m.join_date AND MONTH (order_date) = 1) A
 GROUP BY customer_id;
 
+-- BONUS: Join All The Things
+-- Create a joined table
+CREATE VIEW joined_table AS 
+(SELECT 
+	customer_id, 
+    order_date, 
+    product_name, price, 
+    CASE 
+		WHEN order_date < join_date OR join_date IS NULL THEN 'N' ELSE 'Y' 
+	END AS member
+FROM sales 
+JOIN menu USING(product_id) 
+LEFT JOIN members USING(customer_id));
 
+-- BONUS 2: Rank All The Things
+CREATE VIEW ranked_table AS 
+WITH cte AS (SELECT 
+	customer_id, 
+    order_date, 
+    product_name, price, 
+    CASE 
+		WHEN order_date < join_date OR join_date IS NULL THEN 'N' ELSE 'Y' 
+	END AS member
+FROM sales 
+JOIN menu USING(product_id) 
+LEFT JOIN members USING(customer_id))
+
+SELECT *, 
+CASE 
+	WHEN member = 'Y' 
+	THEN RANK() OVER(PARTITION BY customer_id, member ORDER BY order_date)
+	ELSE 'null'
+END AS ranking
+FROM cte;
